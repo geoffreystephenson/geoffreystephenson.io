@@ -14,7 +14,6 @@ export default function Home() {
         </h1>
 
         <p className="description">
-          Created using Next.js
         </p>
 
       </main>
