@@ -11,12 +11,12 @@ export default function Home() {
 					name="viewport"
 					content="width=device-width, initial-scale=1"
 				/>
+				<meta name="description" content="Geoffrey Stephenson" />
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
 
 			<main>
 				<h1 className="title">Geoffrey Stephenson</h1>
-
 				<p className="description"></p>
 			</main>
 
