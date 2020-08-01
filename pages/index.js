@@ -96,7 +96,7 @@ export default function Home() {
 					background: #fafafa;
 					border-radius: 5px;
 					padding: 0.75rem;
-					font-size: 1.1rem;
+					font-size: 1.2rem;
 					font-family: Menlo, Monaco, Lucida Console, Liberation Mono,
 						DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New,
 						monospace;
@@ -143,7 +143,7 @@ export default function Home() {
 				}
 
 				.logo {
-					height: 1em;
+					height: 1.5em;
 				}
 
 				@media (max-width: 600px) {
