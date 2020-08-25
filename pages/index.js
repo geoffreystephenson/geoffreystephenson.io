@@ -17,7 +17,7 @@ export default function Home() {
 
 			<main>
 				<h1 className="title">Geoffrey Stephenson</h1>
-				<p className="description text-center"></p>
+				<p className="description"></p>
 			</main>
 
 			<footer></footer>
