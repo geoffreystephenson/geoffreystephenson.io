@@ -16,7 +16,7 @@ export default function Home() {
 			</Head>
 
 			<main>
-				<h1 className="title">Geoffrey Stephenson</h1>
+				<h1 className="title text-center">Geoffrey Stephenson</h1>
 				<p className="description"></p>
 			</main>
 
