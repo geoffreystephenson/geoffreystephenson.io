@@ -1,1 +1,3 @@
-console.log('about geoffrey stephenson');
+export default function About() {
+	return null;
+}
