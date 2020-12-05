@@ -1,10 +1,12 @@
 import Head from 'next/head';
+import Layout, { siteTitle } from '../components/layout';
+import utilStyles from '../styles/utils.module.css';
 
 export default function Home() {
 	return (
-		<div className="container">
+		<Layout home>
 			<Head>
-				<title>Geoffrey Stephenson</title>
+				<title>{siteTitle}</title>
 				<meta charset="utf-8" />
 				<meta httpEquiv="X-UA-Compatible" content="IE=edge" />
 				<meta
@@ -16,9 +18,13 @@ export default function Home() {
 			</Head>
 
 			<main>
-				<h1 className="title text-center">Geoffrey Stephenson</h1>
+				<h1 className="title text-center"></h1>
 				<p className="description"></p>
 			</main>
+
+			<section className={utilStyles.headingMd}>
+				<p></p>
+			</section>
 
 			<footer></footer>
 
@@ -170,6 +176,6 @@ export default function Home() {
 					box-sizing: border-box;
 				}
 			`}</style>
-		</div>
+		</Layout>
 	);
 }
