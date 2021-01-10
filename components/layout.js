@@ -10,8 +10,13 @@ export default function Layout({ children, home }) {
 	return (
 		<div className={styles.container}>
 			<Head>
+				<meta httpEquiv="X-UA-Compatible" content="IE=edge" />
+				<meta
+					name="viewport"
+					content="width=device-width, initial-scale=1"
+				/>
 				<link rel="icon" href="/favicon.ico" />
-				<meta name="description" content="About Geoffrey Stephenson" />
+				<meta name="description" content={`About ${name}`} />
 				<meta
 					property="og:image"
 					content={`https://og-image.now.sh/${encodeURI(
