@@ -8,7 +8,7 @@ export default function About() {
 			<Head>
 				<title>About</title>
 			</Head>
-			<h1>About</h1>
+			<h1>About {process.env.NEXT_PUBLIC_NAME}</h1>
 			<h2>
 				<Link href="/">
 					<a>Back to home</a>
