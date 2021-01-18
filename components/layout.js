@@ -3,8 +3,8 @@ import styles from './layout.module.css';
 import utilStyles from '../styles/utils.module.css';
 import Link from 'next/link';
 
-const name = 'Geoffrey Stephenson';
-export const siteTitle = 'Geoffrey Stephenson';
+const name = process.env.NEXT_PUBLIC_NAME;
+export const siteTitle = process.env.NEXT_PUBLIC_NAME;
 
 export default function Layout({ children, home }) {
 	return (

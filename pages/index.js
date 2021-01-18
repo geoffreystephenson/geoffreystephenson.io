@@ -7,13 +7,16 @@ export default function Home() {
 		<Layout home>
 			<Head>
 				<title>{siteTitle}</title>
-				<meta charset="utf-8" />
+				<meta charSet="utf-8" />
 				<meta httpEquiv="X-UA-Compatible" content="IE=edge" />
 				<meta
 					name="viewport"
 					content="width=device-width, initial-scale=1"
 				/>
-				<meta name="description" content="Geoffrey Stephenson" />
+				<meta
+					name="description"
+					content={process.env.NEXT_PUBLIC_NAME}
+				/>
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
 
