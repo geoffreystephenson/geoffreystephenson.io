@@ -6,7 +6,11 @@ export default function About() {
 	return (
 		<Layout>
 			<Head>
-				<title>About</title>
+				<title>About {process.env.NEXT_PUBLIC_NAME}</title>
+				<meta
+					name="description"
+					content={process.env.NEXT_PUBLIC_NAME}
+				></meta>
 			</Head>
 			<h1>About {process.env.NEXT_PUBLIC_NAME}</h1>
 			<h2>
