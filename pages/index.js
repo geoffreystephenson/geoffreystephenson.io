@@ -60,7 +60,7 @@ export default function Home() {
 				}
 
 				footer img {
-					margin-left: 0.5rem;
+					margin-left: 1rem;
 				}
 
 				footer a {
