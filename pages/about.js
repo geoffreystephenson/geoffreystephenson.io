@@ -15,7 +15,7 @@ export default function About() {
 			<h1>About {process.env.NEXT_PUBLIC_NAME}</h1>
 			<h2>
 				<Link href="/">
-					<a>Back to homepage</a>
+					<a>Back to home</a>
 				</Link>
 			</h2>
 		</Layout>

@@ -94,6 +94,7 @@ export default function Home() {
 				.title,
 				.description {
 					text-align: center;
+					padding: 0;
 				}
 
 				.description {
