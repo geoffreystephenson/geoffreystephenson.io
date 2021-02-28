@@ -20,7 +20,7 @@ export default function Home() {
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
 
-			<main>
+			<main id="main">
 				<h1 className="title text-center"></h1>
 				<p className="description"></p>
 			</main>
