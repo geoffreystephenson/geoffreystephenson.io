@@ -31,6 +31,7 @@ export default function Layout({ children, home }) {
 					<>
 						<img
 							src="/images/profile.jpg"
+							loading="lazy"
 							className={`${styles.headerHomeImage} ${utilStyles.borderCircle}`}
 							alt={name}
 						/>
@@ -43,6 +44,7 @@ export default function Layout({ children, home }) {
 								<img
 									src="/images/profile.jpg"
 									className={`${styles.headerImage} ${utilStyles.borderCircle}`}
+									loading="lazy"
 									alt={name}
 								/>
 							</a>
