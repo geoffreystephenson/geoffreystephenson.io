@@ -17,7 +17,7 @@ export default function About() {
 			<p>Atlanta, GA</p>
 			<h2>
 				<Link href="/">
-					<a>Back to home</a>
+					<a>Back to homepage</a>
 				</Link>
 			</h2>
 		</Layout>
