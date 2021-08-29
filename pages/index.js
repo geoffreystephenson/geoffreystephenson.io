@@ -9,10 +9,7 @@ export default function Home() {
 				<title>{siteTitle}</title>
 				<meta charSet="utf-8" />
 				<meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-				<meta
-					name="viewport"
-					content="width=device-width, initial-scale=1"
-				/>
+				<meta name="viewport" content="width=device-width" />
 				<meta
 					name="description"
 					content={process.env.NEXT_PUBLIC_NAME}
